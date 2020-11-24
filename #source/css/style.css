@@ -110,8 +110,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 130%;
   left: -50px;
   top: -95px;
-  background-image: -o-linear-gradient(252deg, #007397 0%, rgba(0, 115, 151, 0) 100%);
-  background-image: linear-gradient(198deg, #007397 0%, rgba(0, 115, 151, 0) 100%);
+  background-image: -o-linear-gradient(252deg, #8b10ff 0%, rgba(0, 115, 151, 0) 100%);
+  background-image: linear-gradient(198deg, #8b10ff 0%, rgba(0, 115, 151, 0) 100%);
 }
 
 .title {
@@ -157,12 +157,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-header {
+w header {
   position: relative;
   z-index: 50;
 }
 @media (max-width: 767.98px) {
-  header {
+  w header {
     position: fixed;
     top: 0;
     left: 0;
@@ -321,7 +321,7 @@ header {
 }
 .menu-header__link--circle {
   padding: 0px 42px 0px 0px;
-  background: url("../img/icons/header-circle.svg") right no-repeat;
+  background: url("../../img/planet.png") right no-repeat;
 }
 @media (max-width: 992.98px) {
   .menu-header__link--circle {
@@ -633,7 +633,7 @@ header {
   text-align: center;
 }
 .item-stat__value {
-  color: #007397;
+  color: #8b10ff;
   font-family: "PT Serif";
   font-size: 54px;
   text-transform: uppercase;
